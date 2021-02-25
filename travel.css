@@ -1,0 +1,79 @@
+.container{
+    background: url("185289.jpg") no-repeat;
+}
+
+.container h4{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 20px;
+}
+.text{
+	float: right;
+	text-align: center;
+}
+.form{
+	max-width: 600px;
+	background: white;
+	padding: 30px;
+	margin: 50px auto;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 6px solid #305A72;
+}
+.form ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+.form ul li{
+	display: block;
+	margin-bottom: 10px;
+	min-height: 35px;
+}
+.form ul li  .field-style{
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	padding: 8px;
+	outline: none;
+	border: 1px solid #B0CFE0;
+	
+
+}.form ul li  .field-style:focus{
+	box-shadow: 0 0 5px #B0CFE0;
+	border:1px solid #B0CFE0;
+}
+.form ul li .field-split{
+	width: 49%;
+}
+.form ul li .field-full{
+	width: 100%;
+}
+.form ul li input.align-left{
+	float:left;
+}
+.form ul li input.align-right{
+	float:right;
+}
+.form ul li textarea{
+	width: 100%;
+	height: 100px;
+}
+.form ul li input[type="button"], 
+.form ul li input[type="submit"] 
+{
+	background-color: #216288;
+	border: 1px solid #17445E;
+	
+	color: #FFFFFF;
+	padding: 10px 18px;
+	font-weight: bolder;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	border-radius: 10px;
+	
+}
+.form ul li input[type="button"]:hover, 
+.form ul li input[type="submit"]:hover {
+	background-color: #28739E;
+}

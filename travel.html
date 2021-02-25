@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="travel.css">
+        <script type="text/javascript" src="jquery_min.js"></script>
+        <script type="text/javascript" src="travel.js"></script>
+    </head>
+    <body class="container">
+        <header class="page-header" style="background:rgb(2, 18, 48); border: rgb(8, 67, 85) 5px solid;">
+            <div style="display: inline;"><img style="height: 100px; width: 100px;margin: 10px;" src="final.jpg"></div>
+            
+                <div class="text"><h2 style="padding: 25px;color: white;">Travellers.com</h2></div>
+        </header>
+        
+        <form class="form">
+            <ul>
+            <li>
+                <h4>Personal Details</h4>
+                <input type="text" name="field1" id="f_name" class="field-style field-split align-left" placeholder="First Name"  required="" />
+                <input type="text" name="field2"  id="l_name" class="field-style field-split align-right" placeholder="Last Name"  required="" />
+               <br><br>
+            
+            </li>
+            <li>
+                <h4> Contact Details</h4>
+                <input type="text" name="field4" class="field-style field-split align-left" placeholder="Phone" 
+                id="phone"  />
+                <input type="text" name="field3" class="field-style field-split align-right" placeholder="Email" id="email"  />
+                <span id="check_phone" style="color: red;float: left;"></span>
+                <span id="check_email" style="color: red;float: right;"></span>
+               
+
+            </li>
+            
+            <li>
+            <input type="text" name="field5" class="field-style field-full align-none" style="margin-top:9px;" placeholder="Address" />
+            </li>
+            <li>
+                
+                <input type="text" name="field6" class="field-style field-split align-right" placeholder="City" />
+                <input type="text" name="field7" class="field-style field-split align-left" placeholder="State" />
+
+            </li>
+            <li>
+                
+                <input type="text" name="field8" class="field-style field-split align-left" placeholder="Zip Code" />
+                <input type="text" name="field9" class="field-style field-split align-right" placeholder="Country" />
+
+            </li>
+            
+            <h4>Travel Details</h4>
+            <li>
+                
+                <input type="text" name="field11" id="destination" class="field-style field-split align-left" placeholder="Destination Name" required="" />
+                <input type="date" name="field12" id="date" class="field-style field-split align-right" placeholder="Date" required="" />
+
+            </li>
+            <li>
+                
+                <input type="text" name="field11"  id="from" class="field-style field-split align-left" placeholder="From" required="" />
+                <input type="text" name="field12" id="to" class="field-style field-split align-right" placeholder="To" required="" />
+
+            </li>
+
+            <li>
+                
+                <input type="number" name="field11" class="field-style field-split align-left" placeholder="Number of Adults" />
+                <input type="number" name="field12" class="field-style field-split align-right" placeholder="Number of kids" />
+
+            </li>
+            <h4>Additional Details</h4>
+            
+                <li>
+                    <textarea name="field10" class="field-style" placeholder="Medical conditions or Emergency"></textarea>
+                    </li>
+                    <li>
+            <input type="submit" value="Submit Details"  onclick="return verify()" />
+            </li>
+
+            <h4>Privacy Policy</h4>
+            <li>
+                <label for="policy" style="font-size: 10px;">In order to fulfill its legal mandate, travellers.com may collect, use, and disclose “personal data”. This includes data from consumers (such as visitors to our website or newsletter subscribers), and data from our tourism partners (such as destination marketing agencies, travel agents and tour operators).</label>
+                <h4>Legal Instruction</h4>
+                <label for="law" style="font-size: 10px;">Travellers are reponsible for any other expences like medical cost or food outside hotel</label>
+                <h4>Specific Instruction</h4>
+                <label for="specific" style="font-size: 10px;"> Travellers.com may collect, use, and disclose “personal data”. This includes data from consumers (such as visitors to our website or newsletter subscribers), and data from our tourism partners (such as destination marketing agencies, travel agents and tour operators).</label>
+                </li>
+            </ul>
+            </form>
+        
+            </body>
+            </html>
